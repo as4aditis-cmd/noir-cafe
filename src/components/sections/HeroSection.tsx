@@ -96,7 +96,7 @@ export function HeroSection() {
       <div className="ambient-light w-[400px] h-[400px] bg-espresso/40 bottom-0 -left-20 opacity-80" aria-hidden />
 
       {/* 3D Canvas — right half */}
-      <CoffeeScene className="absolute right-0 top-0 w-full md:w-3/5 h-full opacity-90" />
+      {/* <CoffeeScene className="absolute right-0 top-0 w-full md:w-3/5 h-full opacity-90" /> */}
 
       {/* Dark overlay gradient */}
       <div className="absolute inset-0 bg-gradient-to-r from-obsidian via-obsidian/80 to-transparent pointer-events-none" />
