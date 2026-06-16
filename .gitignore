@@ -1,5 +1,15 @@
-node_modules
-.next
-out
-.vercel
+# dependencies
+/node_modules
+
+# next.js
+/.next/
+/out/
+
+# build files
 *.tsbuildinfo
+
+# misc
+.DS_Store
+.env.local
+.env
+.env.production
